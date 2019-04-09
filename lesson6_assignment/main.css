@@ -13,14 +13,14 @@ body {
 }
 /* styles for everything within <p> tags */ 
 p { 
-    width: 1220px;
+    width: 900px;
     padding: 10px;
     color: #fff;
     margin: 1px;
 }
 /* styles for everything within <p> tags */ 
 q { 
-    width: 1220px;
+    width: 900px;
     padding: 10px;
     color: #fff;
     margin: 1px;
@@ -31,7 +31,7 @@ hr {
 }
 /* styles for everything within <h1> tags - these tags override <body> tags */   
 h1 { 
-    width: 1220px;
+    width: 900px;
     padding: 10px;
     color: #fff;
     margin: 1px;
@@ -40,7 +40,7 @@ h1 {
 }
 /* styles for everything within <h2> tags - these tags override <body> tags */ 
 h2 { 
-    width: 1220px;
+    width: 900px;
     padding: 10px;
     color: #fff;
     margin: 1px;
@@ -78,3 +78,34 @@ iframe {
 /* styles for links */ 
 a:link {color: #0000CD} /*unvisited link*/
 a: visited {color: #0000CD} /*visited link*/
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+        width: 1020px;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #000;
+        overflow: hidden;
+}
+
+#header { 
+    padding: 10px;
+    border-bottom: 4px dotted #0000CD;
+}
+
+#content { 
+    padding: 10px;
+    float: left;
+} 
+
+#sidebar { 
+     width: 500px; 
+     height: 450px;
+     margin: 250px;
+}
+
+#footer { 
+    padding: 10px;
+    border-top: 4px dotted #0000CD;
+} 
