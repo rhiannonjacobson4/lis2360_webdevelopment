@@ -1,0 +1,35 @@
+html, body {
+    
+    margin: 0
+    padding: 0;
+}
+
+#splash{
+    background-color: #ffffff;
+    hegiht: 1000px;
+}
+
+#overview{
+    background-color: #696969;
+    hegiht: 1000px;
+}
+
+#video{
+    background-color: #0000CD;
+    hegiht: 1000px;
+}
+
+
+#discography{
+    background-color: #000000;
+    hegiht: 1000px;
+}
+
+
+#footer{
+    background-color: #fff;
+    hegiht: 1000px;
+}
+
+
+
