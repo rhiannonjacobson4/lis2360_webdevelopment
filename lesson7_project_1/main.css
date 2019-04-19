@@ -1,0 +1,111 @@
+
+html, body { 
+    margin: 0;
+    padding: 50;
+}
+/* styles for everything within <body> tags */ 
+body { 
+    background-color: #696969;
+    font-family: Helvetica; 
+    font-size: .9em;
+    color: #fff;
+    line-height: 1.2em;
+}
+/* styles for everything within <p> tags */ 
+p { 
+    width: 900px;
+    padding: 10px;
+    color: #fff;
+    margin: 1px;
+}
+/* styles for everything within <p> tags */ 
+q { 
+    width: 900px;
+    padding: 10px;
+    color: #fff;
+    margin: 1px;
+}
+/* styles for everything within <hr> tags */ 
+hr {
+    border: .5px solid #fff;
+}
+/* styles for everything within <h1> tags - these tags override <body> tags */   
+h1 { 
+    width: 900px;
+    padding: 10px;
+    color: #fff;
+    margin: 1px;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+}
+/* styles for everything within <h2> tags - these tags override <body> tags */ 
+h2 { 
+    width: 900px;
+    padding: 10px;
+    color: #fff;
+    margin: 1px;
+    font-size: .9em;
+    letter-spacing: .2em;
+}
+
+footer { 
+    width: 100px;
+    background-color: #696969;
+    margin: 0;
+    border-top: 1px #0000CD;
+    color: #000;
+    font-size: .9em;
+}
+/* styles for everything within <table> tags */ 
+table { 
+    background-color: #FFF;
+    color: #000;
+    font-size: .9em;
+    margin: 0 0 5px 5px;
+}
+/* styles for everything within img tags */ 
+img { 
+    padding: 2px;
+    margin: 0 0 5px 5px;
+    border: 3px solid #0000CD;
+}
+/* styles for everything within iframe tags */ 
+iframe { 
+    padding: 2px;
+    margin: 0 0 5px 5px;
+    border: 3px solid #0000CD;
+}
+/* styles for links */ 
+a:link {color: #0000CD} /*unvisited link*/
+a: visited {color: #0000CD} /*visited link*/
+
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+        width: 1020px;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #000;
+        overflow: hidden;
+}
+
+#header { 
+    padding: 10px;
+    border-bottom: 4px dotted #0000CD;
+}
+
+#content { 
+    padding: 10px;
+    float: left;
+} 
+
+#sidebar { 
+     width: 500px; 
+     height: 450px;
+     margin: 250px;
+}
+
+#footer { 
+    padding: 10px;
+    border-top: 4px dotted #0000CD;
+} 
